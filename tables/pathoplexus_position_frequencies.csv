@@ -1,7 +1,7 @@
-segment,position,swiss_aa,n_full_records,counts,swiss_frequency_pct
-L,70,I,77,I:67;V:10,87.0
-L,144,R,77,R:65;K:11;X:1,84.4
-M,193,A,141,A:126;P:9;T:3;M:2;S:1,89.4
-M,516,I,141,T:126;K:6;X:4;I:3;F:2,2.1
-M,524,N,141,N:128;T:7;X:3;E:2;S:1,90.8
-M,930,N,141,N:130;G:9;I:2,92.2
+position,scope,residue,count,total,frequency
+M/GPC 516 Swiss-numbered,all_mapped_M_records,T,133,144,0.9236
+M/GPC 516 Swiss-numbered,all_mapped_M_records,I,7,144,0.0486
+M/GPC 516 Swiss-numbered,all_mapped_M_records,X,4,144,0.0278
+M/GPC 516 Swiss-numbered,full_lengthish_M_completeness_ge_0.9,T,129,136,0.9485
+M/GPC 516 Swiss-numbered,full_lengthish_M_completeness_ge_0.9,I,6,136,0.0441
+M/GPC 516 Swiss-numbered,full_lengthish_M_completeness_ge_0.9,X,1,136,0.0074

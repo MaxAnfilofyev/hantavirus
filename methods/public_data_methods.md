@@ -30,8 +30,11 @@ frequency checks, records were restricted to full-length-ish proteins:
 - `M >= 1100 aa`
 - `S >= 420 aa`
 
-For the broader GPC 516 check, all M records whose translated ORF covered
-position 516 were counted.
+For the broader GPC 516 check, residue calls were assigned by translating each
+available M segment ORF and aligning the protein to the Swiss full-length M/GPC
+sequence. This Swiss-numbered mapping is required because several outbreak
+consensus M records are truncated or start-shifted; raw ORF position 516 can
+misclassify those records.
 
 ## Reference comparison
 
@@ -49,4 +52,3 @@ resolved in the coordinate model.
 
 AlphaFold Server predictions were used locally for qualitative support only.
 Raw AlphaFold Server outputs are not redistributed in this repository.
-

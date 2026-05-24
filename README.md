@@ -1,19 +1,23 @@
 # ANDV Swiss/Europe 2026 public-data triage
 
 Informal public-data analysis of the MV Hondius / Swiss-resident 2026 Andes virus
-sequence context, focused on whether any protein-level M/GPC signal deserves
+sequence context, focused on whether any protein-level M/GPC annotation deserves
 expert follow-up.
 
 ## Main takeaway
 
-The only protein-level signal that remained notable after Pathoplexus frequency,
-codon, haplotype, and structural-context checks was `M/GPC:T516I`.
+The main protein-level handoff item is Swiss-numbered `M/GPC 516`.
 
 Current interpretation:
 
-- `T516I` is cleanly supported as an `ATA` codon in the 2026 carrier records.
-- It appears in Netherlands, Switzerland, and France 2026 records in this pull.
-- It is rare in the Pathoplexus M-segment background but not Swiss-unique.
+- After reconciliation with the Ghafari et al. Virological outbreak metadata,
+  the non-Canadian outbreak-associated M records map to `M516I`.
+- The proposed sampled root sequence `PP_006WDKH.1` and possible alternative or
+  near-root sequence `PP_006W6RC.2` both map to `M516I`.
+- The two Canadian May 17 consensus records map as unresolved at this residue in
+  this pull.
+- `M516I` is uncommon in the broader mapped Pathoplexus M-segment background but
+  is not Swiss-unique.
 - It sits near a hydrophobic/membrane-proximal GPC region and near the `N524`
   glycosylation motif.
 - It is not resolved in the public `9P3Y` ANDV Gn-Gc tetramer coordinates.
@@ -25,12 +29,15 @@ vaccine escape, clinical severity, or public-health risk.
 
 ## Suggested starting points
 
+- `reports/ghafari_outbreak_reconciliation.md` - reconciliation against the
+  Virological outbreak metadata and rooting discussion.
 - `reports/andv_m516i_expert_handoff.md` - concise handoff for hantavirus GPC or
   structural virology experts.
 - `reports/andv_swiss_2026_structural_triage_memo.md` - broader triage memo.
 - `tables/m_segment_2026_haplotypes.csv` - 2026 M-protein haplotype summary.
-- `tables/m516_all_pathoplexus_records_covering_position.csv` - all M records
-  covering GPC residue 516 in this Pathoplexus pull.
+- `tables/m516_swiss_numbered_pathoplexus_records.csv` - M records with residue
+  516 assigned by mapping translated M ORFs to the Swiss full-length M/GPC
+  sequence.
 
 ## Data sources
 
@@ -53,4 +60,3 @@ locally generated AlphaFold Server predictions; see `NOTICE.md`.
 
 This is a rapid, informal research note for non-commercial scientific discussion.
 It is not clinical, diagnostic, therapeutic, or public-health guidance.
-

@@ -1,0 +1,9 @@
+accession,short_id,collection_date,country,sample_id,m_length_bp,translated_orf_aa_len,mapped_query_pos_for_swiss_M516,swiss_numbered_M516_aa,swiss_numbered_M516_codon,m516i,attachment_17may_set
+PP_006W3U9.2,006W3U9.2,06/05/2026,Netherlands,EMC_case_1,3561,1120,498,I,ATA,yes,yes
+PP_006W6RC.2,006W6RC.2,03/05/2026,Netherlands,IPD509963,3633,1138,516,I,ATA,yes,yes
+PP_006WBLH.2,006WBLH.2,04/05/2026,Switzerland,ANDV/Switzerland/Hu-3337/2026,3649,1138,516,I,ATA,yes,yes
+PP_006WDJK.1,006WDJK.1,02/05/2026,South Africa,SVPL_200,3603,1120,498,I,ATA,yes,yes
+PP_006WDKH.1,006WDKH.1,26/04/2026,South Africa,SVPL_201,3623,1120,498,I,ATA,yes,yes
+PP_006XBKH.1,006XBKH.1,10/05/2026,France,26-0090|France|Homo_sapiens|2026-05-10,3654,1138,516,I,ATA,yes,yes
+PP_006XDHK.2,006XDHK.2,15/05/2026,Canada,HAN260145,3578,1120,498,X,NNN,no,yes
+PP_006XDJH.2,006XDJH.2,15/05/2026,Canada,HAN260146,3565,1120,498,X,NNN,no,yes

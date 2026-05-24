@@ -1,21 +1,19 @@
-# Pathoplexus Position Frequency Check
+# Swiss-numbered M/GPC 516 frequency check
 
-Full-length-ish ANDV records only: L >=2100 aa, M >=1100 aa, S >=420 aa. Counts are from translated Pathoplexus latest unaligned nucleotide sequences.
+Residue 516 was recomputed by translating each available M segment ORF and aligning the protein to the Swiss full-length M/GPC sequence before assigning the Swiss-numbered residue. This avoids misclassifying truncated/start-shifted M consensus records.
 
-| Segment | Position | Swiss aa | Records | Residue counts | Swiss frequency |
-|---|---:|---|---:|---|---:|
-| L | 70 | I | 77 | I:67;V:10 | 87.0% |
-| L | 144 | R | 77 | R:65;K:11;X:1 | 84.4% |
-| M | 193 | A | 141 | A:126;P:9;T:3;M:2;S:1 | 89.4% |
-| M | 516 | I | 141 | T:126;K:6;X:4;I:3;F:2 | 2.1% |
-| M | 524 | N | 141 | N:128;T:7;X:3;E:2;S:1 | 90.8% |
-| M | 930 | N | 141 | N:130;G:9;I:2 | 92.2% |
+## Counts
+
+- All mapped M records: `{'T': 133, 'I': 7, 'X': 4}` across `144` records.
+- Full-length-ish M records (`completeness_M >= 0.9`): `{'T': 129, 'X': 1, 'I': 6}` across `136` records.
 
 ## Interpretation
 
-- `L70I` is common/consensus-like among full-length records.
-- `L144R` is common/consensus-like among full-length records.
-- `M193A` is common/consensus-like among full-length records.
-- `M516I` is rare in this Pathoplexus full-length set.
-- `M524N` is common/consensus-like among full-length records.
-- `M930N` is common/consensus-like among full-length records.
+With Swiss-numbered mapping, `M516I` is not restricted to three records and is present across the non-Canadian May 2026 outbreak-associated records in the Ghafari metadata set. The useful signal is therefore not simply rarity of `I516`; it is that the current outbreak-associated M sequences share a protein state at/near a membrane-proximal Gn region that can be cleanly annotated against broader M/GPC context.
+
+This update supersedes earlier raw-ORF-position tables that treated some truncated sequences as `K516` or `X516`.
+
+## Files
+
+- `tables/m516_swiss_numbered_pathoplexus_records.csv`
+- `tables/pathoplexus_position_frequencies.csv`
