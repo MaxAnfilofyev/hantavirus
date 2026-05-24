@@ -1,0 +1,5 @@
+segment,reference,position,reference_aa,swiss_2026_aa,mutation,region_annotation,alphafold_job,ca_plddt,nearby_nglyc_motifs,nearby_hydrophobic_regions
+L,PP_006VZ4W.1|L,70,V,I,V70I,N-terminal L/polymerase region; outside the stronger central polymerase chunk in this first-pass model,andv_swiss_2026_l_polymerase_chunk01_aa1_650,93.34,,
+L,PP_006VZ4W.1|L,144,K,R,K144R,N-terminal L/polymerase region; outside the stronger central polymerase chunk in this first-pass model,andv_swiss_2026_l_polymerase_chunk01_aa1_650,92.95,,
+M,PP_006VZ4W.1|M,193,T,A,T193A,Gn ectodomain/head/base region before WAASA cleavage,andv_swiss_2026_m_glycoprotein_precursor_chunk01_aa1_450,89.81,,
+M,PP_006VZ4W.1|M,516,T,I,T516I,Gn ectodomain/head/base region before WAASA cleavage,andv_swiss_2026_m_glycoprotein_precursor_chunk02_aa351_800,79.81,N524NES,

@@ -1,0 +1,7 @@
+segment,position,swiss_aa,n_full_records,counts,swiss_frequency_pct
+L,70,I,77,I:67;V:10,87.0
+L,144,R,77,R:65;K:11;X:1,84.4
+M,193,A,141,A:126;P:9;T:3;M:2;S:1,89.4
+M,516,I,141,T:126;K:6;X:4;I:3;F:2,2.1
+M,524,N,141,N:128;T:7;X:3;E:2;S:1,90.8
+M,930,N,141,N:130;G:9;I:2,92.2
