@@ -29,6 +29,8 @@ vaccine escape, clinical severity, or public-health risk.
 
 ## Suggested starting points
 
+- `reports/virological_thread_findings_review.md` - cross-check against other
+  Virological Hantavirus analysis threads.
 - `reports/ghafari_outbreak_reconciliation.md` - reconciliation against the
   Virological outbreak metadata and rooting discussion.
 - `reports/andv_m516i_expert_handoff.md` - concise handoff for hantavirus GPC or

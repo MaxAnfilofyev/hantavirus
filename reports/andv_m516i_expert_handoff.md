@@ -17,7 +17,7 @@ Current mapped frequency in this pull:
 
 ## Interpretation boundary
 
-No claim is made that `M/GPC:T516I` changes transmissibility, virulence, receptor usage, entry efficiency, antigenicity, vaccine escape, or clinical risk. The strongest defensible statement is that this is an outbreak/background glycoprotein-state annotation worth quick review by ANDV GPC/entry or structural virology experts.
+No claim is made that `M/GPC:T516I` changes transmissibility, virulence, receptor usage, entry efficiency, antigenicity, vaccine escape, diagnostic escape, or clinical risk. Other Virological analyses report near-identity of S/M consensus sequences in the early outbreak set, no detected reassortment among sampled lineages, no elevated molecular clock rate leading to the outbreak lineage, and no evidence for human-associated adaptation in a preliminary GPC selection analysis. The strongest defensible statement is that this is an outbreak/background glycoprotein-state annotation worth quick review by ANDV GPC/entry or structural virology experts.
 
 ## Files
 
